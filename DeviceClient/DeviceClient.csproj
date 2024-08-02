@@ -24,7 +24,7 @@
 		<ApplicationTitle>DeviceClient</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.DeviceClient</ApplicationId>
+		<ApplicationId>com.compass-point.DeviceClient</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -64,6 +64,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Meadow.Foundation.Web.Maple.Client" Version="1.12.8" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />

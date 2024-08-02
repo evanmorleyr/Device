@@ -23,12 +23,12 @@
         <!-- Define the appearance of each item in the list -->
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <StackLayout>
-                    <Label Text="{Binding Version}" FontSize="14"/>
-                    <Label Text="{Binding Created}" FontSize="14" TextColor="Silver"/>
-                    <Label Text="{Binding TypeOfData}" FontSize="14" TextColor="Silver"/>
-                    <Label Text="{Binding TelemetryDataString}" FontSize="14" TextColor="Silver"/>
-                </StackLayout>
+                <HorizontalStackLayout>
+                    <!--<Label Text="{Binding Version}" FontSize="14"/>-->
+                    <Label Text="{Binding Created}" FontSize="12" TextColor="Silver"/>
+                    <Label Text="{Binding TypeOfData}" FontSize="12" TextColor="Silver"/>
+                    <Label Text="{Binding TelemetryDataString}" FontSize="14" TextColor="Black"/>
+                </HorizontalStackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>

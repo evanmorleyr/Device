@@ -14,7 +14,7 @@ public partial class TelemetryModelsPage : ContentPage
 
     protected override void OnAppearing()
     {
-        ((Models.TelemetryModels)BindingContext).LoadTelemetryModels();
+        _ = ((Models.TelemetryModels)BindingContext).LoadTelemetryModels();
     }
 
     private async void telemetryModelCollection_SelectionChanged(object sender, SelectionChangedEventArgs e)
